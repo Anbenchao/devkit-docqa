@@ -1,0 +1,15 @@
+{
+  "name": "huaweicloud-rag-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "RAG demo: 华为云 DevKit 文档问答（BM25 检索 + LLM rerank + 引用式回答 + 评测）",
+  "scripts": {
+    "ingest": "node src/ingest.mjs",
+    "ask": "node src/ask.mjs",
+    "eval": "node src/eval.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

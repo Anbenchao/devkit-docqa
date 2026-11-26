@@ -1,0 +1,22 @@
+[
+  { "q": "如何安装华为云 DevKit 插件？", "expect": ["koocli", "install", "安装"] },
+  { "q": "DevKit 支持哪些 AI 编码工具？", "expect": ["codex", "opencode"] },
+  { "q": "OBS 报错 Please set ak, sk and endpoint 怎么解决？", "expect": ["ak, sk", "endpoint", "凭证"] },
+  { "q": "如何把 Vue 项目部署到 OBS 静态网站？", "expect": ["静态网站", "website", "build"] },
+  { "q": "OBS 的 AK/SK 凭证要在哪里配置？", "expect": ["obsutil", "凭证", "ak"] },
+  { "q": "OBS 命令格式常见的坑有哪些？", "expect": ["陷阱", "命令格式", "pitfall"] },
+  { "q": "VPC 的安全组怎么配置？", "expect": ["security group", "安全组"] },
+  { "q": "VPC 网络不通应该怎么排查？", "expect": ["排查", "troubleshooting", "security group"] },
+  { "q": "RDS 实例怎么创建？", "expect": ["rds", "instance", "创建"] },
+  { "q": "RDS 如何选择规格和可用区？", "expect": ["规格", "可用区", "flavor"] },
+  { "q": "IAM 策略的基本结构是什么？", "expect": ["policy", "statement", "action"] },
+  { "q": "最小权限策略怎么写？", "expect": ["least privilege", "最小权限"] },
+  { "q": "DevKit 默认会阻止哪些操作？", "expect": ["blocked", "阻止", "safety"] },
+  { "q": "写操作为什么需要审批？", "expect": ["approval", "审批", "write"] },
+  { "q": "DevKit 的架构分几层？", "expect": ["layer", "layers", "架构"] },
+  { "q": "DevKit 的能力来源包括哪些？", "expect": ["capability", "来源"] },
+  { "q": "DSH 集成是怎么安装的？", "expect": ["dsh", "patch", "installation"] },
+  { "q": "KooCLI 需要什么前置条件？", "expect": ["前置条件", "prerequisite", "koocli"] },
+  { "q": "常见错误码有哪些？", "expect": ["错误码", "error code"] },
+  { "q": "README 里的遥测说明讲了什么？", "expect": ["telemetry", "遥测"] }
+]
