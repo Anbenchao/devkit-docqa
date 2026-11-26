@@ -1,12 +1,12 @@
-# 华为云 DevKit 文档问答（RAG demo）
+# DevKit DocQA · 华为云 DevKit 文档问答
 
-一个**零依赖、可直接跑**的 RAG 最小实现：Markdown 切片 → BM25 检索 →（可选）LLM rerank → 带引用的回答 → 20 条评测集。
+面向华为云 DevKit 官方文档的检索问答服务：Markdown 切片 → BM25 检索 → 查询扩展 →（可选）LLM rerank → 带引用回答 → 20 条评测集回归。
 
 用来回答这类问题：*「把 Vue 项目部署到 OBS 静态网站要几步？」「VPC 网络不通先查什么？」*
 
 > **语料来源与许可**：`docs/` 下 14 篇 Markdown 抓取自
 > [huaweicloud/huaweicloud-devkit](https://github.com/huaweicloud/huaweicloud-devkit)（Apache-2.0），
-> 版权归原仓库作者所有，此处仅用于检索演示，未做修改。本仓库代码部分可自由使用。
+> 版权归原仓库作者所有，此处仅用于检索示例，未做修改。本仓库代码部分可自由使用。
 
 ## 为什么不用向量检索
 
